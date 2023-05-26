@@ -1,0 +1,128 @@
+[
+    {
+        "id" : 1, 
+        "brand" : "86 (78+8) Diamonds", 
+        "price" : 20000,
+        "promo" : 20000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 2, 
+        "brand" : "172 (126+13) Diamonds",  
+        "price" : 40000,
+        "promo" : 40000, 
+        "category" : "Mobile Legends: Bang Bang"
+    }, 
+    {
+        "id" : 3, 
+        "brand" : "257 (234+23) Diamonds",  
+        "price" : 60000,
+        "promo" : 60000, 
+        "category" : "Mobile Legends: Bang Bang"
+    }, 
+    {
+        "id" : 4, 
+        "brand" : "344 (312+32) Diamonds",  
+        "price" : 80000,
+        "promo" : 80000, 
+        "category" : "Mobile Legends: Bang Bang"
+    }, 
+    {
+        "id" : 5, 
+        "brand" : "429 (390+39) Diamonds", 
+        "price" : 100000,
+        "promo" : 100000, 
+        "category" : "Mobile Legends: Bang Bang"
+    }, 
+    {
+        "id" : 6, 
+        "brand" : "514 (468+46) Diamonds", 
+        "price" : 120000,
+        "promo" : 120000, 
+        "category" : "Mobile Legends: Bang Bang"
+    }, 
+    {
+        "id" : 7, 
+        "brand" : "600 (546+54) Diamonds",  
+        "price" : 140000,
+        "promo" : 140000, 
+        "category" : "Mobile Legends: Bang Bang"
+    }, 
+    {
+        "id" : 8, 
+        "brand" : "706 (625+81) Diamonds",  
+        "price" : 160000,
+        "promo" : 160000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 9, 
+        "brand" : "878 (781+97) Diamonds",  
+        "price" : 200000,
+        "promo" : 200000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 10, 
+        "brand" : "963 (859+104) Diamonds",  
+        "price" : 220000,
+        "promo" : 220000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 11, 
+        "brand" : "1050 (937+113) Diamonds",  
+        "price" : 240000,
+        "promo" : 240000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 12, 
+        "brand" : "1220 (1093+127) Diamonds",  
+        "price" : 280000,
+        "promo" : 280000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 13, 
+        "brand" : "Weekly Diamond Pass",  
+        "price" : 25000,
+        "promo" : 25000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 14, 
+        "brand" : "Twilight Pass",  
+        "price" : 130000,
+        "promo" : 130000, 
+        "category" : "Mobile Legends: Bang Bang"
+    },
+    {
+        "id" : 15, 
+        "brand" : "Blessing Of the Welkin Moon",  
+        "price" : 60000,
+        "promo" : 60000, 
+        "category" : "Genshin Impact"
+    },
+    {
+        "id" : 16, 
+        "brand" : "60 Genesis Crystal",  
+        "price" : 13000,
+        "promo" : 13000, 
+        "category" : "Genshin Impact"
+    },
+    {
+        "id" : 17, 
+        "brand" : "330 Genesis Crystal",  
+        "price" : 60000,
+        "promo" : 60000, 
+        "category" : "Genshin Impact"
+    },
+    {
+        "id" : 18, 
+        "brand" : "1090 Genesis Crystal",  
+        "price" : 175000,
+        "promo" : 175000, 
+        "category" : "Genshin Impact"
+    }
+]

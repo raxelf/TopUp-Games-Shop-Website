@@ -1,0 +1,21 @@
+[
+    {
+        "id" : 1, 
+        "image" : "https://i.postimg.cc/kg6jgqNy/banner.png",
+        "title" : "Mobile Legends: Bang Bang",
+        "description" : "Cepat, Aman, Legal, dan Terpercaya."
+
+    },
+    {
+        "id" : 2, 
+        "image" : "https://i.postimg.cc/GtJG7S1V/banner2.png",
+        "title" : "Genshin Impact",
+        "description" : "Top Up Genesis Crystal & Blessing di Koz's Shop dan Jadilah Sesepuh."
+    },
+    {
+        "id" : 3, 
+        "image" : "https://i.postimg.cc/xT5LL75b/banner3.png",
+        "title" : "Garena Free Fire",
+        "description" : "Murah, legal, dan Terpercaya."
+    }
+]
