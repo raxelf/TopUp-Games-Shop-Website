@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+  --primaryAccent : #00FFD1;
+  --secondaryColor : #0B8C75;
+  --blackColor : #3A3A3A;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #FAFBFC;
+  height: 100vh;
+}
+
+.navbar{
+  padding: 12px 0;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 10px rgba(120, 120, 120, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.secondaryBtn{
+  padding: 12px 24px;
+  gap: 10px;
+  width: 76px;
+  height: 28px;
+  background: var(--secondaryColor);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--primaryAccent);
+  min-width: 100px;
+}
+
+.btnWrapper{
+  gap: 12px;
+}
+
+.notifIcon{
+  border: none;
+  background-color: transparent;
+}
+
+.circleBadge{
+  width: 6px;
+  height: 6px;
+  background: var(--secondaryColor);
+  border-radius: 50%;
+}
+
+.nav-link.active{
+  color: var(--secondaryColor) !important;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link.active::before{
+  content: '';
+  width: 60%;
+  height: 2px;
+  background-color: var(--secondaryColor);
+  border-radius: 20px;
+  position: absolute;
+  bottom: 6px;
+  left: 8px;
+}
+
+.nav-link{
+  position: relative;
+}
+
+.nav-link::before{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: var(--secondaryColor);
+  border-radius: 20px;
+  position: absolute;
+  bottom: 6px;
+  left: 8px;
+  transition: all .3s ease-in-out;
+}
+
+.nav-link:hover::before{
+  content: '';
+  width: 60%;
+  height: 2px;
+  background-color: var(--secondaryColor);
+  border-radius: 20px;
+  position: absolute;
+  bottom: 6px;
+  left: 8px;
+  transition: all .3s ease-in-out;
+}
+
+.carousel-control-next{
+  font-size: 30px;
+}
+.carousel-control-prev{
+  font-size: 30px;
+}
+
+#carouselExampleCaptions{
+  margin-top: 60px;
+}
+
+.bannerpromotion {
+  margin-top: 60px;
+}
+
+.title-wrapper{
+  width: 28px;
+  height: 32px;
+  left: 83px;
+  top: 368px;
+  background: var(--primaryAccent);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.txtTopUp{
+  border: none;
+  min-width: 80px;
+  max-width: 120px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: var(--blackColor);
+}
+
+.txtService{
+  border: none;
+  width: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: var(--blackColor);
+}
+
+.category-label{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  text-shadow: 0px 4px 6px var(--primaryAccent);
+  background: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+
+  width: 166px;
+  height: 53px;
+
+  transition: all ease-in .2s;
+  font-size: 14px;
+}
+
+.card-category{
+  background-color: #ffff;
+  filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.25));
+}
+
+.card-category:hover .category-label{
+  background: var(--secondaryColor);
+  transition: all ease-in .2s;
+}
+
+.fab {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: var(--secondaryColor);
+  box-shadow: 1px 2px 4px var(--blackColor);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .4s;
+}
+
+.fab:hover{
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.fab:hover i{
+  width: 25%;
+  transform: rotate(45deg);
+  transition: .4s;
+}
+
+.bi-headset{
+  color: #FFFFFF;
+  width: 25%;
+  transition: .4s;
+}
+
+/* Login Pages */
+
+#loginpage{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#loginpage h1{
+  color: var(--primaryAccent) !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+#loginpage p{
+  color: var(--secondaryColor) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+#loginpage form span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--blackColor);
+}
+#loginpage form span a{
+  margin: 5px;
+  font-weight: 600;
+  color: var(--secondaryColor);
+}
+#loginpage form span a:hover{
+  text-decoration: underline !important;
+}
+
+#loginpage .forgotpass{
+  color: var(--secondaryColor) !important;
+}
+#loginpage .forgotpass:hover{
+  text-decoration: underline !important;
+}
+
+.bi-google{
+  margin: 8px;
+  color: var(--secondaryColor);
+}
+
+#loginpage h6{
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0px 4px 6px var(--primaryAccent);
+
+  background: rgba(0,0,0,0.5);
+}
+
+/* Register Page */
+
+#registerpage{
+  margin-bottom: 30px;
+}
+
+#registerpage .bannerslider {
+  margin-top: -70px !important;
+}
+
+#registerpage h1{
+  color: var(--primaryAccent) !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+#registerpage p{
+  color: var(--secondaryColor) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+#registerpage form span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--blackColor);
+}
+#registerpage form span a{
+  margin: 5px;
+  font-weight: 600;
+  color: var(--secondaryColor);
+}
+#registerpage form span a:hover{
+  text-decoration: underline !important;
+}
+
+#registerpage .termservice{
+  color: var(--secondaryColor) !important;
+}
+
+#registerpage h6{
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0px 4px 6px var(--primaryAccent);
+
+  background: rgba(0,0,0,0.5);
+}
+
+.registerbtn{
+  background: var(--secondaryColor) !important;
+  color: #FFFFFF;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+
+.signup-google{
+  width: 100% !important;
+  height: 42px !important;
+  background: #FFFFFF !important;
+  border: 1px solid #BCBCBC !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+  margin: 10px 0 20px 0 !important;
+  transition: .2s !important;
+  color: var(--secondaryColor) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 21px !important;
+}
+
+@media screen and (max-width : 992px){
+  .nav-link:hover::before{
+    width: 6%;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+  }
+
+  .nav-link.active::before{
+    width: 6%;
+    left: 0;
+  }
+
+  #registerpage {
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+
+  #loginpage{
+    margin-top: 80px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width : 768px) and (min-width: 576px){
+  .category-label{
+    font-size: 12px;
+  }
+
+  #loginpage {
+    margin-top: 80px;
+  }
+
+  #loginpage .carousel-caption{
+    display: block !important;
+    transform: translateY(40px);
+    font-size: 1rem;
+  }
+
+  #registerpage {
+    margin-top: 120px;
+    margin-bottom: 300px;
+  }
+
+  #registerpage .carousel-caption{
+    display: block !important;
+    transform: translateY(40px);
+    font-size: 1rem;
+  }
+
+}
+
+/* Mobile L < */
+@media screen and (max-width : 576px){
+  .category-label{
+    font-size: 10px;
+    height: 40px;
+  }
+
+  #loginpage {
+    margin-top: 80px;
+  }
+
+  #loginpage .carousel-caption{
+    display: block !important;
+    transform: translateY(40px);
+    font-size: 1rem;
+  }
+
+  #registerpage {
+    margin-top: 150px;
+    margin-bottom: 250px;
+  }
+
+  #registerpage .carousel-caption{
+    display: block !important;
+    transform: translateY(40px);
+    font-size: 1rem;
+  }
+
+  .signup-google{
+    font-size: 14px !important;
+  }
+}
+
+/* Mobile S */
+@media screen and (max-width : 320px) {
+  .category-label{
+    font-size: 8px;
+  }
+
+  .signup-google{
+    font-size: 10px !important;
+  }
+
+  #loginpage .carousel-caption{
+    display: none !important;
+  }
+
+  #registerpage .carousel-caption{
+    display: none !important;
+  }
+}
