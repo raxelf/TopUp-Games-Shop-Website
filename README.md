@@ -36,13 +36,13 @@ Make sure you have the requirements before starting:
    <h3>
       Landing Page
    </h3>
-   <img src="https://i.postimg.cc/mgzRQ2mV/landing-page.png"/>
+   <img src="https://i.postimg.cc/mgzRQ2mV/landing-page.png" width="30px"/>
    <h3>
       Login Page
    </h3>
-  <img src="https://i.postimg.cc/kGCjjwNf/login-page.png"/>
+  <img src="https://i.postimg.cc/kGCjjwNf/login-page.png" width="30px"/>
   <h3>
       Register Page
    </h3>
-  <img src="https://i.postimg.cc/5N6zhLP3/register-page.png"/>
+  <img src="https://i.postimg.cc/5N6zhLP3/register-page.png" width="30px"/>
 </div>
