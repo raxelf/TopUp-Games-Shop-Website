@@ -13,8 +13,8 @@ const Footer = () =>{
                 <div className="col-md-6 text-end">
                     <h6>Follow Us</h6>
                     <ul className="list-unstyled fs-6 mb-0">
-                    <li><a href="https://www.facebook.com/koz.shop" target="_blank" style={{ color: '#0B8C75' }}><i className="bi bi-facebook"></i> Facebook</a></li>
-                    <li><a href="https://www.instagram.com/koz.shop_/" target="_blank" style={{ color: '#0B8C75' }}><i className="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a href="YOUR_FACEBOOK" target="_blank" style={{ color: '#0B8C75' }}><i className="bi bi-facebook"></i> Facebook</a></li>
+                    <li><a href="YOUR_INSTAGRAM" target="_blank" style={{ color: '#0B8C75' }}><i className="bi bi-instagram"></i> Instagram</a></li>
                     </ul>
                 </div>
                 </div>
