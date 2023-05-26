@@ -46,3 +46,15 @@ Make sure you have the requirements before starting:
    </h3>
   <img src="https://i.postimg.cc/5N6zhLP3/register-page.png"/>
 </div>
+
+## 🛠️ Unimplemented
+
+<div id="unimplemented">
+   <h3>
+      Profile Pages
+   </h3>
+   <img src="https://i.postimg.cc/W4VW2TfX/profile.png" />
+   <h3>
+      Game Pages
+   </h3>
+</div>
