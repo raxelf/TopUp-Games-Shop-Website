@@ -2,9 +2,9 @@
    <h1>
     TopUp Games Show Website (Koz's Shop)
   </h1>
-  
-[ Discontinued ] A Website made for Educational Purposes only.
    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+   
+[ Discontinued ] A Website made for Educational Purposes only.
 </div>
 
 <p align="center">
