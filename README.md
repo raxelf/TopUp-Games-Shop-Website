@@ -1,6 +1,6 @@
 <div id="header" align="center">
    <h1>
-    TopUp Games Show Website (Koz's Shop)
+    Top Up Games Shop Website (Koz's Shop)
   </h1>
    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
